@@ -15,14 +15,14 @@ pipeline{
 
    stages{
 
-     stage('Building'){
+     stage('Building ..'){
 
         steps{
                 echo "Building the application"
         }
  
         }
-     stage('Testing')
+     stage('Testing ..')
         {  
            steps{
 
@@ -32,7 +32,7 @@ pipeline{
 
        }
 
-       stage('Deploying')
+       stage('Deploying ..')
        {
 
           steps{
