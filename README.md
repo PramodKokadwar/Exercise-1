@@ -23,3 +23,9 @@ Open the terminal and run: npm run cypress:execution
 ## Blue Ocean pipeline
 
 ![image](https://user-images.githubusercontent.com/20093948/181363408-3fd86daf-cee0-445b-8be0-b170c3e3f87f.png)
+
+
+## TestCases Passed result
+
+![image](https://user-images.githubusercontent.com/20093948/181364358-05f9f382-1dde-4b33-9016-b47b5e0a638f.png)
+
