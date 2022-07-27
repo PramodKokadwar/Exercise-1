@@ -27,7 +27,7 @@ pipeline {
         string(name: 'SPEC', defaultValue: 'cypress/e2e/**/**', description: 'Ej: cypress/e2e/**/*.js')
         choice(name: 'BROWSER', choices: ['chrome', 'edge', 'firefox'], description: 'Pick the web browser you want to use to run your scripts')
     }
-    
+
     //The stage directive goes in the stages section and should contain a steps section, an optional agent section, 
     //or other stage-specific directives. Practically speaking, all of the real work done by a Pipeline will be wrapped
     //in one or more stage directives.
@@ -47,9 +47,15 @@ pipeline {
             }
         }
         
-        stage('Deploy'){
+        stage('Deploy QA'){
             steps {
                 echo "Deploying"
+            }
+        }
+
+         stage("Deploy to PROD"){
+            steps{
+                echo("deploy to PROD")
             }
         }
     }
