@@ -46,18 +46,7 @@ pipeline {
                 bat "npx cypress run --browser ${BROWSER} --spec ${SPEC}"
             }
         }
-        
-        stage('Deploy QA'){
-            steps {
-                echo "Deploying"
-            }
-        }
-
-         stage("Deploy to PROD"){
-            steps{
-                echo("deploy to PROD")
-            }
-        }
+         
     }
 
     post {
