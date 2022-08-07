@@ -23,10 +23,6 @@ import {
     cy.contains('Apollo 11')
   });
 
-  Then("A user will get search result Neil Armstrong", () => {
-    cy.url().should("contains", "/Neil_Armstrong");
-    cy.screenshot()
-    cy.contains('Neil Armstrong');
-  });
+ 
   
   

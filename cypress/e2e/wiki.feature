@@ -2,7 +2,7 @@
 Feature: Wiki Page  
 
     Feature wiki page to search text
-
+    
     Background:
         Given A user opens a wiki website  
     Scenario: Navigate to Wiki website and Search Apollo 11
@@ -10,8 +10,3 @@ Feature: Wiki Page
         And A user click on search button
         Then A user will get search result apollo 11 
  
-    Scenario: Navigate to Wiki website and search Neil Armstrong
-        When A user search "Neil Armstrong"
-        And A user click on search button
-        Then A user will get search result Neil Armstrong   
-   
